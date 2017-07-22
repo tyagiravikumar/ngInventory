@@ -17,6 +17,16 @@
     "forms": {
       "option1": "Option 1"
     },
+    "menu_inv": {
+      "dashboard": "Dashboard",
+      "invoice": "invoice",
+      "inventory": "Inventory",
+      "reports": "Reports",
+      "contactus": "Contact us",
+      "aboutus": "About us",
+      "login": "Login",
+      "register": "Register"
+    },
     "menu": {
       "dashboard": "Dashboard",
       "editors": "Editors",
