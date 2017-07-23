@@ -27,14 +27,11 @@ export const PAGES_MENU = [
         }
       },
       {
-        path: 'components',
+        path: 'inventory',
         data: {
           menu: {
             title: 'general.menu_inv.inventory',
-            icon: 'ion-gear-a',
-            selected: false,
-            expanded: false,
-            order: 250,
+            icon: 'ion-gear-a'
           }
         }
       },
