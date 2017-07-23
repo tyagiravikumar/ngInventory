@@ -4,7 +4,7 @@ import { FormsModule as AngularFormsModule } from '@angular/forms';
 import { AppTranslationModule } from '../../app.translation.module';
 import { NgaModule } from '../../theme/nga.module';
 import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
-
+import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { routing }       from './inventory.routing';
 
 import { Inventory } from './inventory.component';
@@ -31,7 +31,8 @@ import { WithoutLabelsForm } from './components/layouts/components/withoutLabels
     AppTranslationModule,
     NgaModule,
     NgbRatingModule,
-    routing
+    routing,
+    Ng2SmartTableModule
   ],
   declarations: [
    Layouts,
